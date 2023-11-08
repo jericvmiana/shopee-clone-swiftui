@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1932B34A2AFB36B3008A5BE1 /* DailyLiveCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B3492AFB36B3008A5BE1 /* DailyLiveCellView.swift */; };
+		1932B34C2AFB4A39008A5BE1 /* SaleProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B34B2AFB4A39008A5BE1 /* SaleProductsView.swift */; };
+		1932B34E2AFB58B3008A5BE1 /* DailyItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B34D2AFB58B3008A5BE1 /* DailyItemsView.swift */; };
+		1932B3512AFB5D25008A5BE1 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B3502AFB5D25008A5BE1 /* NavigationBar.swift */; };
 		1998063A2AFB148900535999 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806392AFB148900535999 /* DailyView.swift */; };
 		1998063C2AFB152400535999 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998063B2AFB152400535999 /* MailView.swift */; };
 		1998063E2AFB152900535999 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998063D2AFB152900535999 /* LiveView.swift */; };
 		199806402AFB153100535999 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998063F2AFB153100535999 /* NotificationsView.swift */; };
 		199806422AFB153500535999 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806412AFB153500535999 /* MeView.swift */; };
+		199806452AFB216C00535999 /* CashInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806442AFB216C00535999 /* CashInView.swift */; };
+		199806472AFB24FC00535999 /* DailyCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806462AFB24FC00535999 /* DailyCategoriesView.swift */; };
+		199806492AFB276200535999 /* DailyLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806482AFB276200535999 /* DailyLiveView.swift */; };
 		19F56D952AFA800F00B3853C /* ShopeeCloneSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F56D942AFA800F00B3853C /* ShopeeCloneSwiftUIApp.swift */; };
 		19F56D972AFA800F00B3853C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F56D962AFA800F00B3853C /* ContentView.swift */; };
 		19F56D992AFA801200B3853C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F56D982AFA801200B3853C /* Assets.xcassets */; };
@@ -19,11 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1932B3492AFB36B3008A5BE1 /* DailyLiveCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLiveCellView.swift; sourceTree = "<group>"; };
+		1932B34B2AFB4A39008A5BE1 /* SaleProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleProductsView.swift; sourceTree = "<group>"; };
+		1932B34D2AFB58B3008A5BE1 /* DailyItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyItemsView.swift; sourceTree = "<group>"; };
+		1932B3502AFB5D25008A5BE1 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		199806392AFB148900535999 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
 		1998063B2AFB152400535999 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		1998063D2AFB152900535999 /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
 		1998063F2AFB153100535999 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		199806412AFB153500535999 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		199806442AFB216C00535999 /* CashInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashInView.swift; sourceTree = "<group>"; };
+		199806462AFB24FC00535999 /* DailyCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCategoriesView.swift; sourceTree = "<group>"; };
+		199806482AFB276200535999 /* DailyLiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLiveView.swift; sourceTree = "<group>"; };
 		19F56D912AFA800F00B3853C /* ShopeeCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopeeCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F56D942AFA800F00B3853C /* ShopeeCloneSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopeeCloneSwiftUIApp.swift; sourceTree = "<group>"; };
 		19F56D962AFA800F00B3853C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,16 +56,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1932B34F2AFB5D1C008A5BE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1932B3502AFB5D25008A5BE1 /* NavigationBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		199806382AFB147F00535999 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				199806392AFB148900535999 /* DailyView.swift */,
+				199806432AFB215400535999 /* Daily */,
 				1998063B2AFB152400535999 /* MailView.swift */,
 				1998063D2AFB152900535999 /* LiveView.swift */,
 				1998063F2AFB153100535999 /* NotificationsView.swift */,
 				199806412AFB153500535999 /* MeView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		199806432AFB215400535999 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				199806392AFB148900535999 /* DailyView.swift */,
+				199806442AFB216C00535999 /* CashInView.swift */,
+				199806462AFB24FC00535999 /* DailyCategoriesView.swift */,
+				199806482AFB276200535999 /* DailyLiveView.swift */,
+				1932B3492AFB36B3008A5BE1 /* DailyLiveCellView.swift */,
+				1932B34B2AFB4A39008A5BE1 /* SaleProductsView.swift */,
+				1932B34D2AFB58B3008A5BE1 /* DailyItemsView.swift */,
+			);
+			path = Daily;
 			sourceTree = "<group>";
 		};
 		19F56D882AFA800F00B3853C = {
@@ -73,6 +109,7 @@
 		19F56D932AFA800F00B3853C /* ShopeeCloneSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1932B34F2AFB5D1C008A5BE1 /* Views */,
 				199806382AFB147F00535999 /* Screens */,
 				19F56D942AFA800F00B3853C /* ShopeeCloneSwiftUIApp.swift */,
 				19F56D962AFA800F00B3853C /* ContentView.swift */,
@@ -160,12 +197,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1932B34A2AFB36B3008A5BE1 /* DailyLiveCellView.swift in Sources */,
 				199806402AFB153100535999 /* NotificationsView.swift in Sources */,
 				1998063C2AFB152400535999 /* MailView.swift in Sources */,
 				19F56D972AFA800F00B3853C /* ContentView.swift in Sources */,
 				19F56D952AFA800F00B3853C /* ShopeeCloneSwiftUIApp.swift in Sources */,
+				1932B34C2AFB4A39008A5BE1 /* SaleProductsView.swift in Sources */,
+				199806452AFB216C00535999 /* CashInView.swift in Sources */,
 				1998063E2AFB152900535999 /* LiveView.swift in Sources */,
 				199806422AFB153500535999 /* MeView.swift in Sources */,
+				199806472AFB24FC00535999 /* DailyCategoriesView.swift in Sources */,
+				1932B34E2AFB58B3008A5BE1 /* DailyItemsView.swift in Sources */,
+				1932B3512AFB5D25008A5BE1 /* NavigationBar.swift in Sources */,
+				199806492AFB276200535999 /* DailyLiveView.swift in Sources */,
 				1998063A2AFB148900535999 /* DailyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
