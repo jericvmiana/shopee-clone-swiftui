@@ -47,6 +47,7 @@ struct NavigationBar: View {
         }
         .padding()
         .background(Color.red.gradient)
+        .zIndex(1)
     }
 }
 

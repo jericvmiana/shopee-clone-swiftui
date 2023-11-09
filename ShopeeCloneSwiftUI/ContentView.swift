@@ -14,7 +14,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "hand.thumbsup.fill")
                 }
-            MailView()
+            MallView()
                 .tabItem {
                     Image(systemName: "tray.fill")
                 }

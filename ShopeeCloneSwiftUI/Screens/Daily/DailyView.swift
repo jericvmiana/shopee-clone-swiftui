@@ -10,13 +10,21 @@ import SwiftUI
 struct DailyView: View {
     var body: some View {
         ZStack(alignment: .top) {
+            
             NavigationBar()
-                .zIndex(1)
+            
             ScrollView {
-                Color(.systemTeal)
-                    .frame(height: 170)
+                CarouselView()
                 CashInView()
-                DailyCategoriesView()
+                VStack {
+                    CategoriesView(
+                        category: Category(columns: .init(repeating: .init(.flexible()), count: 5), items: 10)
+                    )
+                    BannerView()
+                }
+                .background(.white)
+                .offset(y: -20)
+            
                 DailyLiveView()
                 DailyItemsView()
             }

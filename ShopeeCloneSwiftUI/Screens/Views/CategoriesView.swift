@@ -7,14 +7,19 @@
 
 import SwiftUI
 
-struct DailyCategoriesView: View {
-    
-    private let columns: [GridItem] = Array(repeating: .init(.flexible(), spacing: 10), count: 5)
+struct Category {
+    let columns: [GridItem]
+    var items: Int
+}
 
+struct CategoriesView: View {
+    
+    var category: Category
+    
     var body: some View {
         VStack {
-            LazyVGrid(columns: columns) {
-                ForEach(0..<10) { _ in
+            LazyVGrid(columns: category.columns) {
+                ForEach(0..<category.items, id: \.self) { _ in
                     VStack(spacing: 10) {
                         Image(systemName: "square.stack.3d.up.fill")
                             .foregroundStyle(.yellow)
@@ -22,9 +27,7 @@ struct DailyCategoriesView: View {
                             .overlay {
                                 RoundedRectangle(cornerRadius: 15)
                                     .stroke(.secondary.opacity(0.2), lineWidth: 1)
-
                             }
-
                         Text("Coins Rewards")
                             .font(.system(size: 12))
                             .foregroundStyle(.primary)
@@ -33,25 +36,15 @@ struct DailyCategoriesView: View {
                     .background(.white)
                 }
             }
-            .padding([.leading, .trailing, .top], 10)
-            HStack {
-                Color(.teal)
-                    .clipShape(.rect(cornerRadius: 7))
-                Color(.red)
-                    .clipShape(.rect(cornerRadius: 7))
-                    .frame(width: UIScreen.main.bounds.width * 0.4)
-                Color(.pink)
-                    .clipShape(.rect(cornerRadius: 7))
-            }
-            .frame(height: 100)
-            .padding([.top, .bottom])
-            .padding([.leading, .trailing], 5)
+            .padding(10)
         }
         .background(.white)
-        .offset(y: -20)
     }
 }
 
 #Preview {
-    DailyCategoriesView()
+    CategoriesView(
+        category: Category(columns: .init(repeating: .init(.flexible()), count: 5),
+                           items: 5)
+    )
 }
