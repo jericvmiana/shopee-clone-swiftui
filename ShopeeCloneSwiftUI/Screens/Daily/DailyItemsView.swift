@@ -18,7 +18,7 @@ struct DailyItemsView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .padding(10)
-                        .foregroundStyle(Color.secondary.opacity(0.2))
+                        .foregroundStyle(.appBorder)
                     Text("100 LED Beads RGB/ Warm White Christmas Lights")
                         .font(.system(size: 13))
                         .lineLimit(2)
@@ -38,7 +38,7 @@ struct DailyItemsView: View {
             }
         }
         .padding([.leading, .trailing], 10)
-        .background(Color.secondary.opacity(0.1))
+        .background(.scrollBackground)
     }
 }
 

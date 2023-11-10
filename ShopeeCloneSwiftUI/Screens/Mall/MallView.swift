@@ -44,7 +44,7 @@ struct MallView: View {
                 }
             }
             .scrollIndicators(.hidden)
-            .background(.secondary.opacity(0.1))
+            .background(.scrollBackground)
         }
     }
 }

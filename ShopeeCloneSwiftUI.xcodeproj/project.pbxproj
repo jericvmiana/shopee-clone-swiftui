@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		192585F72AFE18410037B6A2 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585F62AFE18410037B6A2 /* MockData.swift */; };
+		192585FA2AFE31650037B6A2 /* NotificationsViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585F92AFE31650037B6A2 /* NotificationsViewHeader.swift */; };
+		192585FC2AFE31850037B6A2 /* NotificationsPromotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585FB2AFE31850037B6A2 /* NotificationsPromotionsView.swift */; };
+		192585FE2AFE358C0037B6A2 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585FD2AFE358C0037B6A2 /* NotificationCell.swift */; };
 		1932B34A2AFB36B3008A5BE1 /* DailyLiveCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B3492AFB36B3008A5BE1 /* DailyLiveCellView.swift */; };
 		1932B34C2AFB4A39008A5BE1 /* SaleProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B34B2AFB4A39008A5BE1 /* SaleProductsView.swift */; };
 		1932B34E2AFB58B3008A5BE1 /* DailyItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B34D2AFB58B3008A5BE1 /* DailyItemsView.swift */; };
@@ -40,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		192585F62AFE18410037B6A2 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		192585F92AFE31650037B6A2 /* NotificationsViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewHeader.swift; sourceTree = "<group>"; };
+		192585FB2AFE31850037B6A2 /* NotificationsPromotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPromotionsView.swift; sourceTree = "<group>"; };
+		192585FD2AFE358C0037B6A2 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		1932B3492AFB36B3008A5BE1 /* DailyLiveCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLiveCellView.swift; sourceTree = "<group>"; };
 		1932B34B2AFB4A39008A5BE1 /* SaleProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleProductsView.swift; sourceTree = "<group>"; };
 		1932B34D2AFB58B3008A5BE1 /* DailyItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyItemsView.swift; sourceTree = "<group>"; };
@@ -82,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		192585F82AFE1D5B0037B6A2 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1998063F2AFB153100535999 /* NotificationsView.swift */,
+				192585F92AFE31650037B6A2 /* NotificationsViewHeader.swift */,
+				192585FB2AFE31850037B6A2 /* NotificationsPromotionsView.swift */,
+				192585FD2AFE358C0037B6A2 /* NotificationCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		1932B34F2AFB5D1C008A5BE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,10 +129,10 @@
 		199806382AFB147F00535999 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				192585F82AFE1D5B0037B6A2 /* Notifications */,
 				19BAB25A2AFCEFFC001098AC /* Live */,
 				1932B3522AFB9E7F008A5BE1 /* Mall */,
 				199806432AFB215400535999 /* Daily */,
-				1998063F2AFB153100535999 /* NotificationsView.swift */,
 				199806412AFB153500535999 /* MeView.swift */,
 			);
 			path = Screens;
@@ -270,6 +287,7 @@
 				199806452AFB216C00535999 /* CashInView.swift in Sources */,
 				1932B3572AFBAA0B008A5BE1 /* VouchersView.swift in Sources */,
 				19BAB2592AFCE946001098AC /* TrendingShopsView.swift in Sources */,
+				192585FA2AFE31650037B6A2 /* NotificationsViewHeader.swift in Sources */,
 				19BAB2552AFCDA75001098AC /* SectionTitlePlainView.swift in Sources */,
 				19BAB24E2AFCC6E4001098AC /* BrandVouchers.swift in Sources */,
 				1998063E2AFB152900535999 /* LiveView.swift in Sources */,
@@ -282,10 +300,12 @@
 				19BAB2512AFCCBA2001098AC /* EdgeBorder.swift in Sources */,
 				1932B3512AFB5D25008A5BE1 /* NavigationBar.swift in Sources */,
 				1932B35D2AFBB1A3008A5BE1 /* SaleProductsMallView.swift in Sources */,
+				192585FC2AFE31850037B6A2 /* NotificationsPromotionsView.swift in Sources */,
 				192585F72AFE18410037B6A2 /* MockData.swift in Sources */,
 				1932B35B2AFBB061008A5BE1 /* SectionTitleView.swift in Sources */,
 				199806492AFB276200535999 /* DailyLiveView.swift in Sources */,
 				1932B3592AFBAE2D008A5BE1 /* BannerView.swift in Sources */,
+				192585FE2AFE358C0037B6A2 /* NotificationCell.swift in Sources */,
 				1998063A2AFB148900535999 /* DailyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

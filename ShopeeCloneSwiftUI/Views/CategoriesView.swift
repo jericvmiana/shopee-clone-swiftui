@@ -26,7 +26,7 @@ struct CategoriesView: View {
                             .padding(8)
                             .overlay {
                                 RoundedRectangle(cornerRadius: 15)
-                                    .stroke(.secondary.opacity(0.2), lineWidth: 1)
+                                    .stroke(.appBorder, lineWidth: 1)
                             }
                         Text("Coins Rewards")
                             .font(.system(size: 12))

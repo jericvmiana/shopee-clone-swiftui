@@ -66,7 +66,7 @@ struct LiveView: View {
                         }
                         
                     }
-                    .border(width: 0.5, edges: [.top], color: .secondary.opacity(0.3))
+                    .border(width: 0.5, edges: [.top], color: .appBorder)
                     .scrollIndicators(.hidden)
                     .contentMargins(15, for: .scrollContent)
                     

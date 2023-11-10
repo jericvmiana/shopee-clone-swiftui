@@ -23,7 +23,7 @@ struct LiveVouchersView: View {
                             .foregroundStyle(.secondary)
                             .padding(5)
                     }
-                    .border(.secondary.opacity(0.3))
+                    .border(.appBorder)
                 }
             }
             

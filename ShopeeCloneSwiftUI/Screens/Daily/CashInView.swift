@@ -40,7 +40,7 @@ struct CashInView: View {
         .padding()
         .background(.white)
         .clipShape(.rect(cornerRadius: 7))
-        .shadow(color: .secondary.opacity(0.3), radius: 4, y: 2)
+        .shadow(color: .appBorder, radius: 4, y: 2)
         .foregroundStyle(.secondary)
         .offset(y: -20)
     }

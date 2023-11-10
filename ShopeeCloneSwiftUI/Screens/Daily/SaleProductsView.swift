@@ -40,10 +40,12 @@ struct SaleProductsView: View {
                             VStack {
                                 Image(systemName: "text.below.photo")
                                     .resizable()
-                                    .frame(width: 100)
-                                    .foregroundStyle(.secondary.opacity(0.2))
+                                    .scaledToFit()
+                                    .foregroundStyle(.appBorder)
+                                Spacer()
                                 Text("P1,000")
                                 .font(.system(size: 15, weight: .semibold))
+                                .padding(.bottom, 5)
                             }
                             .overlay(alignment: .topTrailing) {
                                 VStack {
@@ -95,10 +97,12 @@ struct SaleProductsView: View {
                             VStack {
                                 Image(systemName: "text.below.photo")
                                     .resizable()
-                                    .frame(width: 100)
-                                    .foregroundStyle(.secondary.opacity(0.2))
+                                    .scaledToFit()
+                                    .foregroundStyle(.appBorder)
+                                Spacer()
                                 Text("P1,000")
-                                .font(.system(size: 16, weight: .semibold))
+                                .font(.system(size: 15, weight: .semibold))
+                                .padding(.bottom, 5)
                             }
                             .overlay(alignment: .topTrailing) {
                                 VStack {
@@ -112,7 +116,7 @@ struct SaleProductsView: View {
                                 .padding(5)
                                 .background(.yellow)
                             }
-                            
+                            .frame(width: 100)
                         }
                     }
                     .background(.white)
