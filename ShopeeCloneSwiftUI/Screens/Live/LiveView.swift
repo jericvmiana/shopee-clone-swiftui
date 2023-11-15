@@ -78,10 +78,13 @@ struct LiveView: View {
                         ForEach(0..<10) { _ in
                             
                             VStack {
-                                Image("shopee-banner1")
+                                Image(MockData.randomBanner)
                                     .resizable()
-                                    .frame(maxWidth: .infinity, maxHeight: 280)
-                                    .scaledToFill()
+                                    .aspectRatio(1, contentMode: .fill)
+                                    .frame(maxWidth: .infinity, maxHeight: 250)
+                                    .clipped()
+
+
                             }
                         }
                     }

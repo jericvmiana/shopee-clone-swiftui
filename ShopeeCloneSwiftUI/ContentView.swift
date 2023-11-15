@@ -13,24 +13,30 @@ struct ContentView: View {
             DailyView()
                 .tabItem {
                     Image(systemName: "hand.thumbsup.fill")
+                    Text("Home")
                 }
             MallView()
                 .tabItem {
                     Image(systemName: "tray.fill")
+                    Text("Mall")
                 }
             LiveView()
                 .tabItem {
                     Image(systemName: "video.fill")
+                    Text("Live")
                 }
             NotificationsView()
                 .tabItem {
                     Image(systemName: "bell.fill")
+                    Text("Notification")
                 }
-            MeView()
+            AccountView()
                 .tabItem {
                     Image(systemName: "person.fill")
+                    Text("Me")
                 }
         }
+        .tint(.appPrimary)
     }
 }
 

@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1907BBB32B045B20003EC631 /* OthersCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907BBB22B045B20003EC631 /* OthersCategory.swift */; };
+		1907BBB52B04675E003EC631 /* AccountViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907BBB42B04675E003EC631 /* AccountViewSection.swift */; };
+		1907BBB72B0467DF003EC631 /* AccountCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907BBB62B0467DF003EC631 /* AccountCategoriesView.swift */; };
+		1907BBB92B046B3C003EC631 /* AccountSectionItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907BBB82B046B3C003EC631 /* AccountSectionItemsView.swift */; };
+		1907BBBB2B049FD5003EC631 /* BoughtProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907BBBA2B049FD5003EC631 /* BoughtProductsView.swift */; };
 		192585F72AFE18410037B6A2 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585F62AFE18410037B6A2 /* MockData.swift */; };
 		192585FA2AFE31650037B6A2 /* NotificationsViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585F92AFE31650037B6A2 /* NotificationsViewHeader.swift */; };
 		192585FC2AFE31850037B6A2 /* NotificationsPromotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585FB2AFE31850037B6A2 /* NotificationsPromotionsView.swift */; };
 		192585FE2AFE358C0037B6A2 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192585FD2AFE358C0037B6A2 /* NotificationCell.swift */; };
+		192586012AFE3AB80037B6A2 /* AccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192586002AFE3AB80037B6A2 /* AccountHeaderView.swift */; };
+		192586032AFE3B0C0037B6A2 /* VerifyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192586022AFE3B0C0037B6A2 /* VerifyAccountView.swift */; };
 		1932B34A2AFB36B3008A5BE1 /* DailyLiveCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B3492AFB36B3008A5BE1 /* DailyLiveCellView.swift */; };
 		1932B34C2AFB4A39008A5BE1 /* SaleProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B34B2AFB4A39008A5BE1 /* SaleProductsView.swift */; };
 		1932B34E2AFB58B3008A5BE1 /* DailyItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932B34D2AFB58B3008A5BE1 /* DailyItemsView.swift */; };
@@ -24,7 +31,7 @@
 		1998063C2AFB152400535999 /* MallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998063B2AFB152400535999 /* MallView.swift */; };
 		1998063E2AFB152900535999 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998063D2AFB152900535999 /* LiveView.swift */; };
 		199806402AFB153100535999 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998063F2AFB153100535999 /* NotificationsView.swift */; };
-		199806422AFB153500535999 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806412AFB153500535999 /* MeView.swift */; };
+		199806422AFB153500535999 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806412AFB153500535999 /* AccountView.swift */; };
 		199806452AFB216C00535999 /* CashInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806442AFB216C00535999 /* CashInView.swift */; };
 		199806472AFB24FC00535999 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806462AFB24FC00535999 /* CategoriesView.swift */; };
 		199806492AFB276200535999 /* DailyLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199806482AFB276200535999 /* DailyLiveView.swift */; };
@@ -42,10 +49,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1907BBB22B045B20003EC631 /* OthersCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersCategory.swift; sourceTree = "<group>"; };
+		1907BBB42B04675E003EC631 /* AccountViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewSection.swift; sourceTree = "<group>"; };
+		1907BBB62B0467DF003EC631 /* AccountCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCategoriesView.swift; sourceTree = "<group>"; };
+		1907BBB82B046B3C003EC631 /* AccountSectionItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSectionItemsView.swift; sourceTree = "<group>"; };
+		1907BBBA2B049FD5003EC631 /* BoughtProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoughtProductsView.swift; sourceTree = "<group>"; };
 		192585F62AFE18410037B6A2 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		192585F92AFE31650037B6A2 /* NotificationsViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewHeader.swift; sourceTree = "<group>"; };
 		192585FB2AFE31850037B6A2 /* NotificationsPromotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPromotionsView.swift; sourceTree = "<group>"; };
 		192585FD2AFE358C0037B6A2 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		192586002AFE3AB80037B6A2 /* AccountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeaderView.swift; sourceTree = "<group>"; };
+		192586022AFE3B0C0037B6A2 /* VerifyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAccountView.swift; sourceTree = "<group>"; };
 		1932B3492AFB36B3008A5BE1 /* DailyLiveCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLiveCellView.swift; sourceTree = "<group>"; };
 		1932B34B2AFB4A39008A5BE1 /* SaleProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleProductsView.swift; sourceTree = "<group>"; };
 		1932B34D2AFB58B3008A5BE1 /* DailyItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyItemsView.swift; sourceTree = "<group>"; };
@@ -59,7 +73,7 @@
 		1998063B2AFB152400535999 /* MallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallView.swift; sourceTree = "<group>"; };
 		1998063D2AFB152900535999 /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
 		1998063F2AFB153100535999 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
-		199806412AFB153500535999 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		199806412AFB153500535999 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		199806442AFB216C00535999 /* CashInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashInView.swift; sourceTree = "<group>"; };
 		199806462AFB24FC00535999 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		199806482AFB276200535999 /* DailyLiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLiveView.swift; sourceTree = "<group>"; };
@@ -99,6 +113,21 @@
 			path = Notifications;
 			sourceTree = "<group>";
 		};
+		192585FF2AFE36C60037B6A2 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				199806412AFB153500535999 /* AccountView.swift */,
+				192586002AFE3AB80037B6A2 /* AccountHeaderView.swift */,
+				192586022AFE3B0C0037B6A2 /* VerifyAccountView.swift */,
+				1907BBB22B045B20003EC631 /* OthersCategory.swift */,
+				1907BBB42B04675E003EC631 /* AccountViewSection.swift */,
+				1907BBB62B0467DF003EC631 /* AccountCategoriesView.swift */,
+				1907BBB82B046B3C003EC631 /* AccountSectionItemsView.swift */,
+				1907BBBA2B049FD5003EC631 /* BoughtProductsView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		1932B34F2AFB5D1C008A5BE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +158,11 @@
 		199806382AFB147F00535999 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				192585FF2AFE36C60037B6A2 /* Account */,
 				192585F82AFE1D5B0037B6A2 /* Notifications */,
 				19BAB25A2AFCEFFC001098AC /* Live */,
 				1932B3522AFB9E7F008A5BE1 /* Mall */,
 				199806432AFB215400535999 /* Daily */,
-				199806412AFB153500535999 /* MeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -277,13 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192586012AFE3AB80037B6A2 /* AccountHeaderView.swift in Sources */,
 				1932B34A2AFB36B3008A5BE1 /* DailyLiveCellView.swift in Sources */,
 				199806402AFB153100535999 /* NotificationsView.swift in Sources */,
+				1907BBB32B045B20003EC631 /* OthersCategory.swift in Sources */,
 				1998063C2AFB152400535999 /* MallView.swift in Sources */,
 				19F56D972AFA800F00B3853C /* ContentView.swift in Sources */,
 				19BAB2532AFCD9E1001098AC /* ProductCategoriesView.swift in Sources */,
+				1907BBB92B046B3C003EC631 /* AccountSectionItemsView.swift in Sources */,
 				19F56D952AFA800F00B3853C /* ShopeeCloneSwiftUIApp.swift in Sources */,
 				1932B34C2AFB4A39008A5BE1 /* SaleProductsView.swift in Sources */,
+				1907BBB52B04675E003EC631 /* AccountViewSection.swift in Sources */,
 				199806452AFB216C00535999 /* CashInView.swift in Sources */,
 				1932B3572AFBAA0B008A5BE1 /* VouchersView.swift in Sources */,
 				19BAB2592AFCE946001098AC /* TrendingShopsView.swift in Sources */,
@@ -291,13 +324,16 @@
 				19BAB2552AFCDA75001098AC /* SectionTitlePlainView.swift in Sources */,
 				19BAB24E2AFCC6E4001098AC /* BrandVouchers.swift in Sources */,
 				1998063E2AFB152900535999 /* LiveView.swift in Sources */,
+				192586032AFE3B0C0037B6A2 /* VerifyAccountView.swift in Sources */,
 				19BAB25E2AFCF61B001098AC /* LiveVouchersView.swift in Sources */,
-				199806422AFB153500535999 /* MeView.swift in Sources */,
+				199806422AFB153500535999 /* AccountView.swift in Sources */,
 				199806472AFB24FC00535999 /* CategoriesView.swift in Sources */,
 				1932B3552AFB9F08008A5BE1 /* CarouselView.swift in Sources */,
 				1932B34E2AFB58B3008A5BE1 /* DailyItemsView.swift in Sources */,
 				19BAB2572AFCE207001098AC /* ProductCategoryCelll.swift in Sources */,
+				1907BBB72B0467DF003EC631 /* AccountCategoriesView.swift in Sources */,
 				19BAB2512AFCCBA2001098AC /* EdgeBorder.swift in Sources */,
+				1907BBBB2B049FD5003EC631 /* BoughtProductsView.swift in Sources */,
 				1932B3512AFB5D25008A5BE1 /* NavigationBar.swift in Sources */,
 				1932B35D2AFBB1A3008A5BE1 /* SaleProductsMallView.swift in Sources */,
 				192585FC2AFE31850037B6A2 /* NotificationsPromotionsView.swift in Sources */,

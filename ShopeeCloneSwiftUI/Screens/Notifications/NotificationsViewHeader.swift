@@ -33,7 +33,7 @@ struct NotificationsViewHeader: View {
                 }
                 .padding(.trailing)
             }
-            .frame(maxHeight: 80)
+            .frame(height: 70)
             .foregroundStyle(.white)
         }
         .background(.red.gradient)
