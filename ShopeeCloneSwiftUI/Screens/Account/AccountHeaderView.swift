@@ -74,7 +74,7 @@ struct AccountHeaderView: View {
             }
             .padding(.bottom)
         }
-        .background(.appPrimary)
+        .background(.red.gradient)
     }
 }
 
