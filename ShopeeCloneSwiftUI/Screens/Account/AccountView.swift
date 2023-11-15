@@ -112,7 +112,6 @@ struct AccountView: View {
                     .padding([.top, .bottom], 10)
                 }
             }
-            .ignoresSafeArea()
             .background(.scrollBackground)
             .scrollIndicators(.hidden)
         }
